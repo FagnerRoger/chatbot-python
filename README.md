@@ -11,16 +11,24 @@ sudo apt-get install python3-tk
   
 # Como os Chatbots funcionam?
 Os chatbots nada mais são do que um software inteligente que pode interagir e se comunicar com pessoas como seres humanos. Interessante não é! Então agora vamos entender como eles realmente funcionam. Todo o chatbot é baseado nos conceitos de NLP (Natural Language Processing). 
+
 A NLP é composta de duas coisas:
+
 1.  NLU (Natural Language Understanding): A capacidade das máquinas de entender a linguagem humana como o inglês.
 2.  NLG (Natural Language Generation): a capacidade de uma máquina de gerar texto semelhante a frases escritas por humanos.
 
-Exemplo: Usuário fazendo uma pergunta para um chatbot: 
+Exemplo: Usuário fazendo uma pergunta para um chatbot:
+
 "Ei, quais as notícias hoje? 
+
 O chatbot dividirá a sentença do usuário em duas coisas: 
+
 Intenção e uma Entidade. 
+
 A intenção dessa frase pode ser get_news, pois se refere a uma ação que o usuário deseja executar. 
+
 A entidade informa detalhes específicos sobre a intenção, então aqui 'hoje' será a entidade. 
+
 Portanto, é usado um modelo de aprendizado de máquina para reconhecer as intenções e entidades do bate-papo.
 
 # Estrutura do arquivo do projeto
@@ -32,7 +40,8 @@ Vamos analisar rapidamente cada um deles, dando uma idéia de como o projeto est
 5.  **classes.pkl -**    Este arquivo pode ser usado para armazenar todos os nomes de tags para classificar quando estamos prevendo a mensagem.
 6.  **words.pkl -**    Este arquivo contém todas as palavras exclusivas que são o vocabulário do nosso modelo.
 
-# Running the chatbot
+# Executando o Chatbot
 ```
 python3 train_chatbot.py
+python3 gui_chatbot.py
 ```
