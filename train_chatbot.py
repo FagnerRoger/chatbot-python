@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-1. Import de bibliotecas e carregmaneto de dados
+1. Import de bibliotecas e carregamento de dados
 """
 import json
 import pickle
